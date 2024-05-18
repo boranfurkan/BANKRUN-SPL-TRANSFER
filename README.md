@@ -26,34 +26,10 @@ To set up the project locally, follow these steps:
    ```bash
    yarn install
    ```
-
-## Usage
-
-This project includes several scripts to interact with the Solana blockchain. Here are a few examples:
-
-### Mint Tokens
-
-To mint new tokens to a specific wallet:
-
-```bash
-ts-node mintTo.ts --wallet <WALLET_ADDRESS> --amount <AMOUNT>
-```
-
-### Transfer Tokens
-
-To transfer tokens from one wallet to another:
-
-```bash
-ts-node transferToken.ts --from <SOURCE_WALLET_ADDRESS> --to <DESTINATION_WALLET_ADDRESS> --amount <AMOUNT>
-```
-
-### Create ATA
-
-To create an associated token account for a wallet:
-
-```bash
-ts-node createAta.ts --wallet <WALLET_ADDRESS>
-```
+4. Run the project:
+   ```bash
+   yarn test
+   ```
 
 ## Testing
 
